@@ -14,8 +14,8 @@ namespace aspCart.Core.Domain.Catalog
         public Guid Id { get; set; }
 
         [StringLength(255, MinimumLength = 1)]
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string CategoryName { get; set; }
+        public string CategoryDescription { get; set; }
 
         public string SeoUrl { get; set; }
         public string MetaTitle { get; set; }
